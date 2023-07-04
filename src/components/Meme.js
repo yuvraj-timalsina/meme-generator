@@ -1,7 +1,17 @@
+import memesData from "../memesData.js"
+
 function Meme() {
+
+    function getMemeImage() {
+        const memesArray = memesData.data.memes
+        const randomNumber = Math.floor(Math.random() * memesArray.length)
+        const url = memesArray[randomNumber].url
+        console.log(url)
+    }
+
     return (
         <main>
-            <form className="form">
+            <div className="form">
                 <input
                     type="text"
                     placeholder="Top Text"
@@ -13,11 +23,12 @@ function Meme() {
                     className="form-input"
                 />
                 <button
+                    onClick={getMemeImage}
                     className="form-button"
                 >
                     Get New Meme Image 📸
                 </button>
-            </form>
+            </div>
         </main>
     )
 }
