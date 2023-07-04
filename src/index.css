@@ -22,7 +22,7 @@ main {
 
 .header-image {
   height: 100%;
-  margin-right: 6px;
+  margin-right: 7px;
 }
 
 .header-title {
@@ -38,7 +38,7 @@ main {
 .form {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
-  gap: 17px;
+  gap: 15px;
 }
 
 .form-input {
