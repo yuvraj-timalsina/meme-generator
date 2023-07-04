@@ -4,18 +4,18 @@ function Meme() {
             <form className="form">
                 <input
                     type="text"
-                    placeholder="Top text"
+                    placeholder="Top Text"
                     className="form-input"
                 />
                 <input
                     type="text"
-                    placeholder="Bottom text"
+                    placeholder="Bottom Text"
                     className="form-input"
                 />
                 <button
                     className="form-button"
                 >
-                    Get New Meme Image 🖼
+                    Get New Meme Image 📸
                 </button>
             </form>
         </main>
