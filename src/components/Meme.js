@@ -36,6 +36,7 @@ function Meme() {
                     placeholder="Top Text"
                     className="form-input"
                     name="topText"
+                    value={meme.topText}
                     onChange={handleChange}
                 />
                 <input
@@ -43,6 +44,7 @@ function Meme() {
                     placeholder="Bottom Text"
                     className="form-input"
                     name="bottomText"
+                    value={meme.bottomText}
                     onChange={handleChange}
                 />
                 <button
