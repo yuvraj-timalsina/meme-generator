@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import memesData from "../memesData.js"
+import memesData from '../memesData.js'
 
 function Meme() {
 
@@ -42,7 +42,11 @@ function Meme() {
                     Get New Meme Image 📸
                 </button>
             </div>
-            <img className="meme-image" src={meme.randomImage} />
+            <div className="meme">
+                <img className="meme-image" src={meme.randomImage} alt='' />
+                <h2 className="meme-text top">One does not simply</h2>
+                <h2 className="meme-text bottom">Walk into Mordor</h2>
+            </div>
         </main>
     )
 }
