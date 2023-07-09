@@ -3,9 +3,9 @@ import {useEffect, useState} from 'react'
 function Meme() {
 
     const [meme, setMeme] = useState({
-        topText: "",
-        bottomText: "",
-        randomImage: "http://i.imgflip.com/1bij.jpg"
+        topText: "Shut Up",
+        bottomText: "And Take My Money",
+        randomImage: "https://i.imgflip.com/39t1o.jpg"
     })
     const [allMemes, setAllMemes] = useState([])
 
